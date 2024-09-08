@@ -39,7 +39,7 @@ function Highlights() {
           </div>
         </div>
 
-        <Test />
+        <VideoCarousel />
       </div>
     </section>
   )

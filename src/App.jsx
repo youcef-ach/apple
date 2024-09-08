@@ -2,16 +2,17 @@ import React from 'react'
 import Navbar from './components/Navbar'
 import Hero from './components/Hero'
 import Highlights from './components/Highlights'
-import Practice from './components/practice'
+import Test from './components/test'
+import Model from './components/Model'
 
 function App() {
   return (
-    // <main>
-    //   <Navbar />
-    //   <Hero />
-    //   <Highlights />
-    // </main>
-    <Practice />
+    <main>
+      <Navbar />
+      <Hero />
+      <Highlights />
+      <Model />
+    </main>
   )
 }
 
