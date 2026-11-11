@@ -89,3 +89,4 @@ describe("Apple 3D Showcase Configuration & Data Integrity", () => {
     assert.equal(largeOffset.transform, "translateX(-100%)");
   });
 });
+
