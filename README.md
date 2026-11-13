@@ -1,12 +1,15 @@
 # iPhone 15 Pro — Interactive 3D Web Experience
 
+## Verification scope
+
+The five Node tests exercise copied configuration fixtures and standalone arithmetic; they do not import the production React/Three.js components. They are learning checks, not evidence of rendering, interaction, accessibility or production reliability.
+
 [![React](https://img.shields.io/badge/React-18.3+-61DAFB?style=flat&logo=react&logoColor=black)](https://react.dev/)
 [![Three.js](https://img.shields.io/badge/Three.js-r168-black?style=flat&logo=three.js&logoColor=white)](https://threejs.org/)
 [![React Three Fiber](https://img.shields.io/badge/R3F-8.17+-blue?style=flat)](https://r3f.docs.pmnd.rs/)
 [![GSAP](https://img.shields.io/badge/GSAP-3.12+-green?style=flat&logo=greensock&logoColor=white)](https://greensock.com/)
 [![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-3.4+-38B2AC?style=flat&logo=tailwind-css&logoColor=white)](https://tailwindcss.com/)
 [![Sentry](https://img.shields.io/badge/Sentry-Monitoring-362D59?style=flat&logo=sentry&logoColor=white)](https://sentry.io/)
-[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 
 An interactive 3D web experience replicating the visual fidelity and interaction design of Apple's **iPhone 15 Pro** announcement website. Built with **React 18**, **Three.js**, **React Three Fiber (R3F)**, **Drei**, and **GSAP ScrollTrigger**, the application showcases advanced WebGL rendering, physically based materials (PBR), dynamic lighting rigs, and timeline-synchronized device transitions.
 
@@ -102,7 +105,7 @@ apple/
 ## Quickstart & Local Setup
 
 ### 1. Prerequisites
-- Node.js 18+ (tested on Node v20/v22/v24)
+- Node.js 22.12+ (this release was built with Node 24.8.0)
 - npm
 
 ### 2. Installation
@@ -138,7 +141,7 @@ npm run preview
 
 ## Automated Test Suite
 
-The test suite validates model metadata, hex palette integrity, scale constants, and viewport transform mathematics:
+The fixture tests check copied model metadata, color values, scale constants and standalone transform arithmetic:
 
 ```bash
 npm test
@@ -160,4 +163,4 @@ npm test
 
 ## License
 
-This project is licensed under the MIT License — see the [LICENSE](LICENSE) file for details.
+No repository license has been specified. Third-party dependencies, brands and assets retain their respective terms.
